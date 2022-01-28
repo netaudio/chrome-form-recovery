@@ -1,0 +1,15 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>*.DS_Store\ndist\nnode_modules\ntodo.*\n*.zip\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	(revision 065a469d16af7a753081211db7e49210bf1b6d67)
++++ b/.gitignore	(date 1643396111475)
+@@ -3,3 +3,4 @@
+ node_modules
+ todo.*
+ *.zip
++.idea
